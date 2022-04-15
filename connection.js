@@ -23,9 +23,8 @@ hfc.setLogger(logger);
 
 async function getClientForOrg (userorg, username) {
 	logger.info('============ START getClientForOrg for org %s and user %s', userorg, username);
-    let config = '../tmp/connection-profile/ngo-connection-profile.yaml';
-    let orgLower = userorg.toLowerCase();
-    let clientConfig = '../tmp/connection-profile/' + orgLower + '/client-' + orgLower + '.yaml';
+    let config = './connection-profile/dem-connection-profile.yaml';
+    let clientConfig = './connection-profile/client-org1.yaml';
 
     logger.info('##### getClient - Loading connection profiles from file: %s and %s', config, clientConfig);
 

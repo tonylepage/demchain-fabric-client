@@ -25,7 +25,7 @@ log4js.configure({
 	  default: { appenders: ['out'], level: 'info' },
 	}
 });
-var logger = log4js.getLogger('NGOAPI');
+var logger = log4js.getLogger('DEMChainAPI');
 const WebSocketServer = require('ws');
 var express = require('express');
 var bodyParser = require('body-parser');

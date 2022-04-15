@@ -5,12 +5,12 @@
     "chaincodeName":"demcc",
     "eventWaitTime":"30000",
     "peers":[
-        "peer1"
+        "nd-T22KAURWNVCBBDQNTSXRTSQSE4"
     ],
     "admins":[
        {
-          "username":"admin",
-          "secret":"Adminpwd1!"
+          "username":"tony",
+          "secret":"password"
        }
     ]
  }
