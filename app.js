@@ -25,7 +25,7 @@ log4js.configure({
 	  default: { appenders: ['out'], level: 'info' },
 	}
 });
-var logger = log4js.getLogger('DEMChainAPI');
+var logger = log4js.getLogger('NGOAPI');
 const WebSocketServer = require('ws');
 var express = require('express');
 var bodyParser = require('body-parser');
@@ -44,8 +44,8 @@ var blockListener = require('./blocklistener.js');
 hfc.addConfigFile('config.json');
 var host = 'localhost';
 var port = 3000;
-var username = "";
-var orgName = "";
+var username = "tony";
+var orgName = "mlytics";
 var channelName = hfc.getConfigSetting('channelName');
 var chaincodeName = hfc.getConfigSetting('chaincodeName');
 var peers = hfc.getConfigSetting('peers');
