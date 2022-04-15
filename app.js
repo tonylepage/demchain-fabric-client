@@ -147,7 +147,7 @@ app.post('/users', awaitHandler(async (req, res) => {
 // GET Donor
 app.get('/measurements', awaitHandler(async (req, res) => {
 	logger.info('================ GET Measurements');
-	let args = nil;
+	let args = {};
 	let fcn = "getAllMeasurements";
 
     logger.info('##### GET all Measurements - username : ' + username);
