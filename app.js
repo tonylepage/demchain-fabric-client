@@ -147,16 +147,16 @@ app.post('/users', awaitHandler(async (req, res) => {
 // GET Donor
 app.get('/measurements', awaitHandler(async (req, res) => {
 	logger.info('================ GET Measurements');
-	let args = {};
+	let args = "";
 	let fcn = "getAllMeasurements";
 
-    logger.info('##### GET on Donor - username : ' + username);
-	logger.info('##### GET on Donor - userOrg : ' + orgName);
-	logger.info('##### GET on Donor - channelName : ' + channelName);
-	logger.info('##### GET on Donor - chaincodeName : ' + chaincodeName);
-	logger.info('##### GET on Donor - fcn : ' + fcn);
-	logger.info('##### GET on Donor - args : ' + JSON.stringify(args));
-	logger.info('##### GET on Donor - peers : ' + peers);
+    logger.info('##### GET all Measurements - username : ' + username);
+	logger.info('##### GET all Measurements - userOrg : ' + orgName);
+	logger.info('##### GET all Measurements - channelName : ' + channelName);
+	logger.info('##### GET all Measurements - chaincodeName : ' + chaincodeName);
+	logger.info('##### GET all Measurements - fcn : ' + fcn);
+	logger.info('##### GET all Measurements - args : ' + JSON.stringify(args));
+	logger.info('##### GET all Measurements - peers : ' + peers);
 
     let message = await query.queryChaincode(peers, channelName, chaincodeName, args, fcn, username, orgName);
  	res.send(message);
