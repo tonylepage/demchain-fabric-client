@@ -42,7 +42,7 @@ orderers:
       path: /home/ec2-user/managedblockchain-tls-chain.pem
 
 peers:
-  nd-t22kaurwnvcbbdqntsxrtsqse4:
+  nd-T22KAURWNVCBBDQNTSXRTSQSE4:
     url: grpcs://nd-t22kaurwnvcbbdqntsxrtsqse4.m-ehbcgjxqgbakdjjyl3uewcdhzu.n-4yfjzomgsvadtlyb63niexxspe.managedblockchain.us-east-1.amazonaws.com:30003
     eventUrl: grpcs://nd-t22kaurwnvcbbdqntsxrtsqse4.m-ehbcgjxqgbakdjjyl3uewcdhzu.n-4yfjzomgsvadtlyb63niexxspe.managedblockchain.us-east-1.amazonaws.com:30004
     grpcOptions:
