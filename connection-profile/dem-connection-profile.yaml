@@ -11,7 +11,7 @@
 # express or implied. See the License for the specific language governing 
 # permissions and limitations under the License.
 
-name: "dem"
+name: "mlytics-dem"
 x-type: "hlfv1"
 description: "DEM Network"
 version: "1.0"
@@ -21,7 +21,7 @@ channels:
     orderers:
       - orderer.com
     peers:
-      peer1:
+      nd-T22KAURWNVCBBDQNTSXRTSQSE4:
         endorsingPeer: true
         chaincodeQuery: true
         ledgerQuery: true
