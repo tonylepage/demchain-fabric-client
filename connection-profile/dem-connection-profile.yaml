@@ -37,14 +37,15 @@ organizations:
 
 orderers:
   orderer.com:
-    url: grpcs://orderer.n-4yfjzomgsvadtlyb63niexxspe.managedblockchain.us-east-1.amazonaws.com:30001
+    url: grpcs://nd-oenia7vglzclxfhfc5mgalk3lq.m-ihq7paszhbdq5fgntu3m4hlv2i.n-4yfjzomgsvadtlyb63niexxspe.managedblockchain.us-east-1.amazonaws.com:30001
+    #url: grpcs://orderer.n-4yfjzomgsvadtlyb63niexxspe.managedblockchain.us-east-1.amazonaws.com:30001
     tlsCACerts:
       path: /home/ec2-user/managedblockchain-tls-chain.pem
 
 peers:
   nd-T22KAURWNVCBBDQNTSXRTSQSE4:
-    url: grpcs://nd-t22kaurwnvcbbdqntsxrtsqse4.m-ehbcgjxqgbakdjjyl3uewcdhzu.n-4yfjzomgsvadtlyb63niexxspe.managedblockchain.us-east-1.amazonaws.com:30003
-    eventUrl: grpcs://nd-t22kaurwnvcbbdqntsxrtsqse4.m-ehbcgjxqgbakdjjyl3uewcdhzu.n-4yfjzomgsvadtlyb63niexxspe.managedblockchain.us-east-1.amazonaws.com:30004
+    url: nd-t22kaurwnvcbbdqntsxrtsqse4.m-ehbcgjxqgbakdjjyl3uewcdhzu.n-4yfjzomgsvadtlyb63niexxspe.managedblockchain.us-east-1.amazonaws.com:30003
+    eventUrl: nd-t22kaurwnvcbbdqntsxrtsqse4.m-ehbcgjxqgbakdjjyl3uewcdhzu.n-4yfjzomgsvadtlyb63niexxspe.managedblockchain.us-east-1.amazonaws.com:30004
     grpcOptions:
       ssl-target-name-override: nd-t22kaurwnvcbbdqntsxrtsqse4
     tlsCACerts:
